@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#country-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.country{
+    border: 1px solid;
+    background-color: rgb(238, 238, 238);
+}
+img{
+    width: 20rem;
+    padding:4rem;
+}
