@@ -43,6 +43,7 @@ fetch('https://restcountries.com/v3.1/all')
                     console.log("Language:", country.languages);
                     console.log("Region:", country.region);
                     console.log("Population:", country.population);
+                    
                 }else{
                     countryInfoDiv.style.display = "none";
             }
